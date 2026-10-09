@@ -8,4 +8,15 @@ public class Commercant extends Humain {
 		super(nom, argent, "thé");
 	}
 
+	public int seFaireExtorquer() {
+		int argentExtorquer = this.getArgent();
+		this.perdreArgent(this.getArgent());
+		this.parler("NON ! Je viens de me faire extorquer, ce monde est vraiment INJUSTE !");
+		return argentExtorquer;
+	}
+	
+	public void recevoir(int n) {
+		this.gagnerArgent(n);
+		this.parler("Ronin, je ne saurai comment vous remercier. Vous disposez de toute ma gratitude");
+	}
 }
