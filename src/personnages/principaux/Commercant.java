@@ -11,7 +11,7 @@ public class Commercant extends Humain {
 	public int seFaireExtorquer() {
 		int argentExtorquer = this.getArgent();
 		this.perdreArgent(this.getArgent());
-		this.parler("NON ! Je viens de me faire extorquer par, ce monde est vraiment INJUSTE !");
+		this.parler("NON ! Je viens de me faire extorquer, ce monde est vraiment INJUSTE !");
 		return argentExtorquer;
 	}
 	
