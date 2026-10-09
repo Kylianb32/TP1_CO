@@ -8,6 +8,7 @@ import personnages.principaux.Yakuza;
 public class MonHistoire {
 	
 	public static void main(String[]args) { 
+		
 			  Humain humain = new Humain("Prof", 10, "Porto");
 			  humain.direBonjour();
 			  humain.boire();
